@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.sonu.resdemo.activity.FeedbackActivity">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/activity_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Mobile NO"/>
+
+            <EditText
+                android:id="@+id/edt_mobile_no"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/blackborderred"
+
+                android:hint="Mobile NO"
+                android:inputType="number"
+                android:maxLength="10"
+                android:padding="10dp"
+                android:singleLine="true"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Feedback Message"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold"  />
+            <EditText
+                android:id="@+id/edt_feedback"
+                android:layout_width="match_parent"
+                android:textSize="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_height="150dp"
+                android:background="@drawable/blackborderred"
+                android:gravity="left"
+                android:padding="15dp"
+                android:hint="Type here."/>
+            <TextView
+                android:id="@+id/txt_send"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/roundedborder"
+
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="SEND"
+                android:textColor="#ffffff"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

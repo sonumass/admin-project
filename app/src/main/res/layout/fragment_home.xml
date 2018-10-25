@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+    <RelativeLayout
+        android:id="@+id/auto_comp_location_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <AutoCompleteTextView
+            android:id="@+id/auto_comp_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Location"
+            android:layout_margin="10dp"
+            android:imeOptions="actionNext"
+            android:background="@drawable/borderred"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            />
+        <!--<ImageView-->
+            <!--android:layout_width="20dp"-->
+            <!--android:layout_height="20dp"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:paddingTop="20dp"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:background="@drawable/down_arrow"-->
+            <!--android:layout_alignParentRight="true"/>-->
+    </RelativeLayout>
+
+    <SlidingDrawer
+        android:id="@+id/drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:content="@+id/content"
+        android:handle="@+id/handle">
+        <ImageView
+            android:id="@id/handle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tray_handle_normal"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@id/content">
+            <com.google.android.gms.maps.MapView
+                android:id="@+id/mapView"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </RelativeLayout>
+
+    </SlidingDrawer>
+</RelativeLayout>

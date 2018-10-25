@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "43700942993",
+    "firebase_url": "https://resdemo-f3d4e.firebaseio.com",
+    "project_id": "resdemo-f3d4e",
+    "storage_bucket": "resdemo-f3d4e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:43700942993:android:5d295942e1e9f498",
+        "android_client_info": {
+          "package_name": "com.sonu.resdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "43700942993-9qg18dourih4mm6alje2s4vci2u8rund.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrfWH5hRkN2lAWhdLsLAI0bPj9n_9Xebw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

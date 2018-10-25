@@ -1,0 +1,46 @@
+<resources>
+  <string name="app_name">Material Design</string>
+  <string name="action_settings">Settings</string>
+  <string name="action_search">Search</string>
+  <string name="drawer_open">Open</string>
+  <string name="drawer_close">Close</string>
+
+  <string name="nav_item_home">Home</string>
+  <string name="nav_item_friends">My Order</string>
+  <string name="nav_item_notifications">Refer A Friends</string>
+  <string name="rate_us">Rate US</string>
+  <string name="send_feedback">Send Feedback</string>
+  <string name="Rs">\u20B9</string>
+  <string name="rs">\u20A8</string>
+  <!-- navigation drawer item labels  -->
+  <string-array name="nav_drawer_labels">
+    <item>@string/nav_item_home</item>
+    <item>@string/nav_item_friends</item>
+    <item>@string/nav_item_notifications</item>
+    <item>@string/send_feedback</item>
+    <item>@string/rate_us</item>
+    <item>@string/title_coupon</item>
+
+  </string-array>
+
+  <string name="title_messages">Refer A Friends</string>
+  <string name="title_coupon">Coupon</string>
+  <string name="title_friends">My Order</string>
+  <string name="title_home">Home</string>
+
+  <string name="title_activity_splash_screen">SplashScreen</string>
+  <string name="dummy_button">Dummy Button</string>
+  <string name="dummy_content">DUMMY\nCONTENT</string>
+  <string name="title_activity_base">BaseActivity</string>
+
+  <!-- TODO: Remove or change this placeholder text -->
+  <string name="hello_blank_fragment">Hello blank fragment</string>
+  <string name="cheese_ipsum">Jarlsberg lancashire edam. Dolcelatte hard cheese brie st. agur blue
+    cheese caerphilly bavarian bergkase cheese and biscuits mascarpone. Cheeseburger swiss bavarian
+    bergkase cream cheese fromage frais cheesy feet port-salut airedale. St. agur blue cheese rubber
+    cheese caerphilly cheddar cheesecake cream cheese manchego lancashire. Roquefort squirty cheese
+    the big cheese.</string>
+  <string name="checkin">Checkin</string>
+  <string name="menu_settings">Settings</string>
+  <string name="title_activity_restaurant_location">Map</string>
+</resources>
